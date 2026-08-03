@@ -1,3 +1,15 @@
+# =============================================================================
+# PROJECT-SPECIFIC: Data files
+# =============================================================================
+# The ApacheJIT dataset CSVs are large (~106k rows) and can be re-downloaded
+# from Zenodo. Raw data should not be in version control — it keeps the repo
+# lightweight and avoids accidentally committing sensitive data.
+data/
+
+# =============================================================================
+# PYTHON STANDARD IGNORES
+# =============================================================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
